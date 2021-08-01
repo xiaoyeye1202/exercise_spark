@@ -25,6 +25,7 @@ object WordCount {
 		reduceByKeyRDD.saveAsTextFile(args(1))
 //		释放资源
 		sc.stop()
+		println("demo")
 //		一行代码解决
 //		sc.textFile(args(0)).flatMap(_.split(" ")).map((_,1)).reduceByKey(_+_).saveAsTextFile(args(1))
 	}
