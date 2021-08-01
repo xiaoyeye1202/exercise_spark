@@ -1,0 +1,5 @@
+spark core
+spark sql
+spark streaming
+yarn
+local

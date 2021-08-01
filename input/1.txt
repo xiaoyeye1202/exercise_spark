@@ -1,0 +1,4 @@
+hello java
+hello python
+hi scala
+ni hao data
