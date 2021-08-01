@@ -17,7 +17,7 @@ object createRDD {
 //		根据集合创建RDD
 		val data1: RDD[Int] = sc.makeRDD(List(1, 2, 3, 4, 5),2)
 //      查看分区
-		val size: Int = data.partitions.size
+		val size: Int = data.partitions.length
 
 		data1.collect().foreach(println)
 //		释放资源
